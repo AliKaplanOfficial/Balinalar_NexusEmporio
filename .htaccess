@@ -1,0 +1,9 @@
+RewriteEngine On
+
+ErrorDocument 404 /site/error.php
+
+RewriteRule ^anasayfa index.php [L,NC]
+RewriteRule ^hakkimzida hakkimizsa.php [L,NC]
+RewriteRule ^portfolyo portfolyo.php [L,NC]
+RewriteRule ^servis servis.php [L,NC]
+RewriteRule ^iletisim iletisim.php [L,NC]
